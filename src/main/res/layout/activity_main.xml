@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/repliedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No replies yet"
+        android:paddingBottom="20dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter message to send"
+        android:paddingBottom="20dp"/>
+
+
+    <Button
+        android:id="@+id/main_send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"/>
+</LinearLayout>
